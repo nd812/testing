@@ -1,0 +1,45 @@
+(1)background: red url("") no-repeat center;
+
+		background-color
+		background-image
+		background-repeat
+		background-position
+		background-attachment
+
+(2)border:2px solid red;
+		
+		to make rounded border use:-"""" border-radius: 2px;"""
+		
+		border-width:
+		border-style:
+		border-color:
+		
+	border-width: 30px 20px 70px 10px;
+	
+	border-top-style: dotted;
+	border-bottom-style: solid;
+	
+(3)	outline:2px solid red;
+	outline: offset: 10px;
+	
+(4) text-decoration: underline red dotted 5px;/none;
+	
+(5) text-tranform: uppercase;
+				   lowercase;
+				   capitalize;
+
+(6) text-indent:10px;	
+	letter-spacing: 2px;     n i k i l
+	line-height:10px;
+	word-spacing:10px;
+	text-shadow:10px;
+	
+(7)font: italic smallcap bold 12px/30px verdana;
+		
+		font-style : italic/normal
+		font-variant:smallcaps/normal
+		font-weight: bold/normal
+		font-size/line-height:40px/80px
+		font-family: curier
+
+	

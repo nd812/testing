@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+
+
+const cars = ["bmw", "audi", "suzuki"];
+
+let txt = "";
+cars.forEach(myFunction);
+document.getElementById("demo").innerHTML =txt;
+
+function myFunction(value, index, array){
+	txt += value + "<br>";
+}
+
+</script>
+</body>
+</html>

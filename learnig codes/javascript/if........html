@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<body>
+	
+	<h2>1. demo  (<->)</h2>
+		<p id="demo"></p>
+	<h2>2. demo  (==)</h2>
+		<p id="test"></p>
+	<h2>3. demo  (<=)</h2>
+		<p id="forward"></p>
+	<h2>4. demo  (>=)</h2>
+		<p id="mine"></p>
+		
+			<script> 
+				const a = 10;
+				const b = 20;
+				let text;
+				
+				if (a < b){
+				text = "'b' is bigger than 'a'";
+				}else{
+				text = "'a' is bigger than 'b'";
+				}
+				document.getElementById("demo").innerHTML = text;
+				
+				
+				if (a == b){
+				text = "both are equal";
+				}else{
+				text = "both are not equal"
+				}
+				document
+				.getElementById("test")
+				.innerHTML = text;
+				
+				if (a <= b){
+				text = "'b'is begger than 'a' or equal";   
+				}else{
+				text =  "'a' is bigger than 'b'  or equal";
+				}
+				document.getElementById("forward").innerHTML = text;
+				
+				if (a >= b){
+				text = "'a' is bigger than 'b'  or equal";
+				}else{
+				text = "'b'is begger than 'a' or equal";
+				}
+				document.getElementById("mine").innerHTML = text;
+				
+				
+				
+			</script>
+		</body>
+	</html>
+

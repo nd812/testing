@@ -1,0 +1,6 @@
+elements<tags>
+atributes<href       = for link 
+		  for image  = src/ alt/ wigth/hight>
+		  for colour = style
+		  for language = lang  <html lang="eng" 
+		  

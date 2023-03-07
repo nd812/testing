@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<title> Store Management</title>
+	<link href="store_managmenet.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.js"></script>
+	<script src="store_managmenet.js"></script>	
+	
+</head>
+<body>
+	<div class="body-container">
+	<h1 class="headTitle">Store Management</h1> <br>
+	<form id="form-container" class="form-container">
+		
+		<label for="itemId" class="product-leble">Item Id:</label>
+		<div class="inputspan-container">
+			<input type="number" class="input-field" id="productId" name="productId" onfocusout="validateField('idError', 'productId', 'Product ID')" oninput="validateField('idError', 'productId', 'Product ID')" min=1><br>
+			 <span id="idError"></span><br>
+		</div>
+		
+		<label for="name" class="product-leble">Name:</label>
+		<div class="inputspan-container">
+			<input type="text" class="input-field" id="productName" name="productName" onfocusout="validateField('nameError', 'productName', 'Product Name')" oninput="validateField('nameError', 'productName', 'Product Name')"><br>
+			<span id="nameError"></span><br>
+		</div>
+		
+		<label for="date" class="product-leble">Date:</label>
+		<div class="inputspan-container">
+			<input type="date" class="input-field" id="productDate" name="productDate" onfocusout="validateField('dateError', 'productDate', 'Product Date')" oninput="validateField('dateError', 'productDate', 'Product Date')"><br>
+			<span id="dateError"  ></span><br>
+		</div>
+		
+		<label for="type" class="product-leble">Type:</label>
+		<div class="inputspan-container">
+			<select class="select-field" id="productType" name="productType" onfocusout="validateField('typeError', 'productType', 'Product Type')" oninput="validateField('typeError', 'productType', 'Product Type')">
+				<option value="">Select the category</option>
+				<option value="A">A</option>
+				<option value="B">B</option>
+				<option value="C">C</option>
+				<option value="D">D</option>
+			</select><br><span id="typeError"></span><br>				
+		</div><br>
+	
+		<div class="button-align-container">
+			<button id="add-Button" class="add-Button" type="button">Save</button><br>
+			<button id="reset-Button" class="reset-Button" type="button">Reset</button>
+		</div>
+	</form>
+	</div>
+	<br>
+	<div class="table-container">
+	<table id="productTable">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>	
+				<th>Date</th>
+				<th>Type</th>
+				<th>Action</th>
+					
+			</tr>
+		</thead>
+	</table>
+	</div>
+	<pre>
+	
+
+</body>
+</html>
+
+

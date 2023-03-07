@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<body>
+	<h2> for in loop </h2>
+	<p id="demo"><p>
+	
+	<script>
+		const car = {carName:"selby cobra", modelYear:"1969", designer:"cerol selby"};
+		let text = "";
+		
+			for(let i in car){
+				text += car[i] + " - ";
+			}
+			document.getElementById("demo").innerHTML = text;
+	</script>
+</body>
+</html>
+	

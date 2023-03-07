@@ -1,0 +1,113 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.headTitle {
+    font-family: Garamond, Serif;
+    font-weight: bold;
+    margin-top:15px;
+    
+}
+
+
+.form-container {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-column-gap: 10px;
+	margin-right:196px;
+	
+	
+}
+
+label {
+    text-align: right;
+    font: 20px Times New Roman, Serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+input, select {
+    width: 200px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    font-family: Garamond, Serif;
+	
+}
+
+select {
+    width: 243px;
+	height: 37px;
+}
+
+.center-align-container {
+    display: flex;
+    place-items: center;
+}
+
+.addButton, .resetButton {
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #00b359;
+	border-color: transparent;
+	color: white;
+	cursor: pointer;
+	margin-left:15px;
+	margin-bottom:15px;
+	
+}
+
+.resetButton {
+	background-color: red;
+}
+
+#editButton, #deletButton {
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #00b359;
+	border-color: transparent;
+	color: white;
+	width: 75px;
+	height: 25px;
+	cursor: pointer;
+	
+}
+
+#deletButton {
+	background-color: red;
+}
+
+table {
+	margin-bottom: 50px;
+	width: 80%;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th, tr {
+	padding: 8px;
+	border: 2px solid black;
+	font-size: 15px;
+}
+
+.inputError{
+	padding-bottom:10px;
+}
+
+span{
+	color: red;
+	margin-left:2px;
+	text-align: center;
+}
+
+
+
+

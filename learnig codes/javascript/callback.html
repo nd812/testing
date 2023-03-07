@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+		<body> 
+			<p id="demo"></p>
+	
+		<script> 
+					function myDisplayer(some) {
+						document.getElementById("demo").innerHTML = some;
+					}
+
+					function myFirst() {
+					myDisplayer("Hello");
+					}
+
+					function mySecond() {
+					myDisplayer("Goodbye");
+					}
+
+
+				mySecond();
+				myFirst();
+		</script>
+	</body>
+</html>

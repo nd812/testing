@@ -1,0 +1,112 @@
+.body-container {
+    display: grid;
+    place-items: center;
+}
+
+.headTitle {
+    font-family: Garamond, Serif;
+    font-weight: bold;
+    margin-top:15px;
+} 
+
+.form-container {
+	display: grid;
+	grid-template-columns: 71px auto;
+	grid-column-gap: 21px;
+	margin-right:75px;
+}
+
+.product-leble {
+    text-align: right;
+    font: 20px Times New Roman, Serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    width: 200px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    font-family: Garamond, Serif;
+}
+
+.select-field {
+    width: 243px;
+	height: 37px;
+	font-size: 17px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    font-family: Garamond, Serif;
+}
+
+.button-align-container {
+	display: flex;
+	place-items: center;
+}
+
+.add-Button, .reset-Button {
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #0dee7d;
+	border-color: transparent;
+	color: white;
+	cursor: pointer;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+
+.reset-Button {
+	background-color: #f10505b5;
+}
+
+#editButton {
+	border-radius: 5px;
+	background-color: #524fe0c7;
+	border-color: transparent;
+	color: white;
+	width: 77px;
+	height: 26px;
+}
+
+#deletButton {
+	border-radius: 5px;
+	border-color: transparent;
+	color: white;
+	width: 77px;
+	height: 26px;
+	background-color: #f10505b5;
+}
+
+.inputspan-container{
+	padding-bottom:10px;
+}
+
+span{
+	color: red;
+	margin-left:2px;
+	
+}
+
+.table-container{
+	 width: 80%;
+	 margin: 0 auto;
+}
+
+tr:nth-child(even) td {
+  background-color: #c6bcbc1d;
+}
+
+tr:hover td {
+  background-color: #c6bcbc4d;
+  color:white;
+}
+
+

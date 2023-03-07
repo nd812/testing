@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<body>
+
+	<p id="demo"></p>
+	
+	<script>
+	
+		function person(name, age, quli,){
+			this.pName = name;
+			this.pAge = age;
+			this.pQulification = quli;
+			this.nameAge = function(){
+			return this.pName + " " + this.pAge
+			};
+			}
+	const myFather = new person("nikhil", 23, "bca");
+	
+	document.getElementById("demo").innerHTML = myFather.nameAge();
+	</script>
+	</body>
+	</html>

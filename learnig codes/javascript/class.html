@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<body> 
+	<p id="demo"></p>
+	
+<script> 
+		class Car {
+			constructor(model){
+				this.mod = model;
+				
+			}
+			present(){
+				return this.mod;
+				
+			}
+			
+		}
+		
+		class Sound extends Car{
+			constructor(model, horn){
+				super(model);
+				this.honk = horn;
+			}
+			
+			ill(){
+				return this.present() + ", " + this.honk;
+			}
+		}
+		
+		let myCar = new Sound("mustang", "poopopopopop");
+		document.getElementById("demo").innerHTML = myCar.ill();
+	
+		
+	</script>
+	</body>
+	</html>

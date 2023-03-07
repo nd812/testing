@@ -1,0 +1,11 @@
+body {
+  
+  
+  
+  background: black url("https://images.unsplash.com/photo-1606115915090-be18fea23ec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8anBlZ3xlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat right top;
+}
+
+h1 {
+  color: lightblue;
+  margin-left: 20px;
+}

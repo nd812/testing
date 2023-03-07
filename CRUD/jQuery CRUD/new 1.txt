@@ -1,0 +1,4 @@
+myTable - change name of table [done]
+change file name - testing to proper name [done]
+class name should be separated by - [done]
+id, var, method - camel case [done]

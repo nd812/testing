@@ -1,0 +1,31 @@
+----------- 06-02-2023  -----------
+
+
+id and class name should be understandable.[done]
+validation should be miniature.[done]
+
+
+----------- 04-02-2023  -----------
+
+add some bottom space after error message when validation error message is coming
+
+----------- 02-02-2023  -----------
+
+Add space at the bottom of the table [done]
+On click of EDIT, on the form Update button should be available [done]
+Id - only numeric character allow [done]
+If we click on save - validation messages will come when no data available [done]
+	 - if we edit any records, validation messages should not be visible if data available  []
+When we edit the records, delete some other records form should have the data available which you are going to update [done]
+
+----------- 30-01-2023  -----------
+	
+Enable scroll bar when more then 3 records [dene]
+Button UI changes    [done]				
+						remove validation messages on click of reset   [done]
+When focus out of the field 
+	- remove the validation message if value is there [done]
+	- show validation message if there is no value [done]
+When there is no value on update - on clicking the update button it is showing validation error message [done]
+	- this is wrong
+When Edit the item and deleting the same item, reset the form	[done]	

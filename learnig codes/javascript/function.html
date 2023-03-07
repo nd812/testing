@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+
+<body>
+		<p id="demo1"></p>
+		<p id="demo2"></p>
+		<p id="demo3"></p>
+		<p id="demo4"></p>
+		<p id="demo5"></p>
+		<p id="demo6"></p>
+		<p id="demo7"></p>
+		<p id="demo8"></p>
+		<p id="demo9"></p>
+		<p id="demo10"></p>
+	
+	<script>
+	
+	const person = {
+			fullName: function(role, country) {
+			 return this.firstName + " " + this.lastName +" "+ "," +  role + "   , " + country;;
+			}
+		}
+		
+		const person1 = {firstName: "regnar", lastName: "lothbrock"};
+		const person2 = {firstName: "jems", lastName: "bond"};
+		const person3 = {firstName: "eithan", lastName: "hunnt"};
+		const person4 = {firstName: "devid", lastName: "jonson"};
+		const person5 = {firstName: "da", lastName: "vinci"};
+		const person6 = {firstName: "Pablo", lastName: "picasso"}; 
+		const person7 = {firstName: "prince", lastName: "parsia"};
+		const person8 = {firstName: "john", lastName: "snow"};
+		const person9 = {firstName: "jonny", lastName: "wihck"};
+		const person10 = {firstName: "pablo", lastName: "escobar"};
+		
+		document.getElementById("demo1").innerHTML = person.fullName.call(person1, "King of Viking", "Norway"); 	//call() with argument
+		document.getElementById("demo2").innerHTML = person.fullName.apply(person2,["British Spy", "Englend"]);	//apply() with argument in array
+		document.getElementById("demo3").innerHTML = person.fullName.call(person3, "American Spy", "USA");
+		document.getElementById("demo4").innerHTML = person.fullName.call(person4, "American Actor", "USA");
+		document.getElementById("demo5").innerHTML = person.fullName.call(person5, "French Painter", "France");
+		document.getElementById("demo6").innerHTML = person.fullName.call(person6, "Spanish painter", "Spain");
+		document.getElementById("demo7").innerHTML = person.fullName.call(person7, "Parsin prince", "Parsia");
+		document.getElementById("demo8").innerHTML = person.fullName.call(person8, "Prince of Targeras", "Targeras");
+		document.getElementById("demo9").innerHTML = person.fullName.call(person9, "contrac Killer", "Europe");
+		document.getElementById("demo10").innerHTML = person.fullName.call(person10, "Drug Lord", "Colambia"); 
+		
+	
+	</script>
+	</body>
+	</html>

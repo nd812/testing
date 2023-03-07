@@ -1,0 +1,23 @@
+<!document html>
+<html>
+<body>
+	<p id="demo"></p>
+	
+	<script>
+	
+		const name = new Map([
+			[1, "nikhil" ],
+			[2, "jigar",],
+			[3, "sagar"]
+		]);
+		
+		
+		let text = "";
+		name.forEach (function(value, key) {
+		text += key + ' = ' + value + "<br>"
+		})
+		
+		document.getElementById("demo").innerHTML = text;
+		</script>
+		</body>
+		</html>

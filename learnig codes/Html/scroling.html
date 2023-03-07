@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<title>scroll down menu</title>
+</head>
+<body >
+	<h2> select car</h2>
+	<form  style="background-color:powderblue">
+	<hr>
+	<h2> which mode do you prefer </h2>
+		
+		<label for="car">Car</label>
+		<input type="radio" id="car" name="car" value"Car">
+		
+		<label for="bike">Bike</label>
+		<input type="radio" id="bike" name="bike" value"Bike">
+		
+		<label for="walk">Walk</label>
+		<input type="radio" id="walk" name="walk" value"Walk">
+		<hr>
+		
+		<h2>checkbox</h2>
+		
+		<label for="checkbox">car</label>
+		<input type="checkbox" id="car" name="car" value="car">
+		
+		
+		<label for="checkbox">bike</label>
+		<input type="checkbox" id="bike" name="bike" value="bike">
+		
+		
+		<label for="checkbox">walk</label>
+		<input type="checkbox" id="walk" name="walk" value="walk">
+		
+		<hr>
+		<h2> log in</h2>
+		
+		 <fieldset>
+    <legend>Personalia:</legend>
+		<label for="id">user id :</label><br>
+		<input type="text" id="id" name="id" value="enter here"><br>
+		<br>
+		<label for="pass">password :</label>
+		<br>
+		<input type="text" id="pass" name="pass" value="enter here">
+		<br><br>
+		<input type="button" value="log in">
+		 </fieldset>
+		<hr>
+		<h2> select an option</h2>
+		
+		<label for="cars">choose a car</label>
+		<select id="cars" name="cars" ">
+			<option>pragani</option>
+			<option>alfa romio</option>
+			<option>linkn hyper sport</option>
+		</select>
+		<input type="submit">
+		<hr>
+		<h2>scrolle down<h2>
+		
+		<label for="cars">cars</label>
+		<select id="cars" name="cars" size="6" multiple	>
+		<option>pragani</option>
+			<option>alfa romio</option>
+			<option>linkn hyper sport</option>
+			<option>selby cobra</option>
+			<option>mastang</option>
+			<option>covert</option>
+			<option>keyonnigse</option>
+		</select>
+		<input type="submit"><hr>
+		<input list="browsers" name="browser">
+  
+  
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+		
+		<h3>feedback</h3>
+		<textarea name="feedback" rows="5" cols="15"> give your valueble feedback here</textarea>
+		<input type="submit">
+		
+		
+</form>
+		 
+		 <button type="button" onclick="alert('your form is submited')">here we go</button>

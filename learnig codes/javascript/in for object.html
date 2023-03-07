@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<body>
+	<p id="demo"></p>
+	<script>
+		/*
+		const car = {carName:"selby cobra", carYear:1969, carDesigner:"cerol selby"};
+		let model = "";
+		
+		for(let i in car){
+		model += car[i] + "  -  ";
+		}
+		
+		document.getElementById("demo").innerHTML = model;
+		*/
+		const car = ["selby cobra", "1969", "cerol selby"];
+		let model = "";
+		
+		for(let i of car){
+		model += i + "  -  ";
+		}
+		
+		document.getElementById("demo").innerHTML = model;
+		
+		</script>
+		</body>
+		</html>
